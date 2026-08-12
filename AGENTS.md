@@ -1,11 +1,5 @@
 # AGENTS.md
 
-NEVER STAGE YOUR CHANGES UNLESS EXPLICITLY ASKED! However, if a change gets externally staged, it is from the human reviewer.
-
-## Use Subagents Whenever Appropriate
-
-ALWAYS delegate less critical/lower-level BATCH work to subagents with less capabilities, e.g., from Claude Fable to Sonnet/Haiku, or from GPT Sol to Terra (reviewing/implementing)/Luna (exploring/batch editing). Report which model you used to spawn that agent in response text. Such work may involve exploring repo structure, finding references, summarizing information, or conducting less sophisticated edits in batches.
-
 ## Project Overview
 
 Vox Deorum (VD, do not use Vox alone) is LLM-enhanced AI for Civilization V, built on the Community Patch framework.
@@ -27,17 +21,9 @@ The system is made up of five components:
 
 Each component has its own AGENTS.md with detailed patterns. Read it before working in that directory.
 
-## Workflow Rules
-
-- Delegate to sub-agents for complex or multi-step features, and include the tool-calling rules in the prompt.
-- Don't present action plans until requested, and don't change test scripts unless asked.
-- Release notes: read `release.txt` for the last version tag, then run `git log <tag>..HEAD --oneline --no-merges` and `git diff --stat <tag>..HEAD`. Output short grouped bullets to the console and don't write files.
-
 ## Writing Style
 
-Write everything in natural language: docs, code comments, commit messages, release notes, console output, and the AGENTS.md files themselves. Keep the prose plain and easy to follow. Bullets, subbullets, and tables are encouraged wherever they make the content easier to scan. Do not use em-dashes anywhere. Reach for a colon, a comma, parentheses, or two separate sentences instead. Every agent working in this repo must follow this rule.
-
-Do not produce layered writings (e.g., instead of X we chose to do Y) that document revision histories, unless explicitly instructed to do so.
+Keep prose plain and easy to follow. Do not document revision history in docs (e.g., instead of X we chose to do Y), unless explicitly instructed to do so.
 
 ## Code Rules
 

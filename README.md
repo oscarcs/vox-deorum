@@ -1,24 +1,6 @@
 # Vox Deorum
 
-Play Civilization V with AI-enhanced opponents powered by GPT, Claude, and other large language models. Built on [Community Patch + Vox Populi](https://github.com/LoneGazebo/Community-Patch-DLL).
-
-**Version 0.12.1 - Beta**
-
-![Replay](https://github.com/CIVITAS-John/vox-deorum-replay/blob/gh-pages/examples/replay-demo.gif)
-
-Vox Deorum gives Civ V's AI civilizations a language model brain. They reason about strategy in natural language, adapt to what you do, and can speak for themselves, so you can chat with any LLM-enhanced player in the game.
-
-## Play
-
-New here? Start with **[Getting Started](docs/players/getting-started.md)** for prerequisites, the installer, and your first launch. From there the [player guide](docs/README.md) covers playing, configuring your LLM provider, reviewing sessions with the replayer, and troubleshooting.
-
-## Develop
-
-Want to understand or change the code? Start with **[Architecture](docs/developers/architecture.md)**: the components, how data flows between them, and why each layer exists. The [developer guide](docs/README.md) continues into setup, the end-to-end protocol, diplomacy, testing, operations, releasing, and a folder per component.
-
-## Documentation
-
-All documentation lives under **[docs/](docs/README.md)**. Pick the player door or the developer door from the index. Working rules for contributors and agents are in [AGENTS.md](AGENTS.md).
+Fork of https://github.com/vox-deorum/vox-deorum for experimentation.
 
 ## License
 
